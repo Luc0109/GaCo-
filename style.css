@@ -1,0 +1,53 @@
+@font-face {
+    font-family:"Titillium Web";
+    src: url(fonts/Titillium_Web\ \(1\)/);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header {
+    height: 122px;
+    background-color: #B66400;
+}
+
+.header div.container-grid {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu a {
+    font-family: "Titillium Web";
+    color: white;
+    font-size: 36px;
+    text-decoration: underline transparent;
+    font-weight: ;
+
+}
+.menu a:hover {
+    color: #0093E0;
+}
