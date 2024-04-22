@@ -21,7 +21,7 @@ html {
 }
 
 .header {
-    width: 1440px;
+    width: 1005;
     height: 122px;
     background-color: #B66400;
 }
@@ -61,6 +61,20 @@ html {
     height: 808px;
 }
 
+.empresas h1 {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.empresas img {
+    width: 60%;
+    margin: auto;
+    display: block;
+
+}
+
 .sobre p {
     font-family: "Mulish";
     color: white;
@@ -75,7 +89,13 @@ h3 {
 .gamificacao h2,
 h4 {
     font-size: 25px;
+}
 
+.gamificacao h1,
+h2,
+h3,
+h4 {
+    text-align: center;
 }
 
 .retangulo1 {
@@ -83,26 +103,33 @@ h4 {
     background-color: #E07D00;
 }
 
-.sedivirta{
+.sedivirta {
     justify-content: space-around;
+    padding: 10%;
 }
 
 .sedivirta p {
     font-size: 48px;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 
 .sedivirta button {
     width: 273px;
     height: 64px;
     font-size: 32px;
     background-color: #E07D00;
-    
-
+    border-radius: 10px;
+    border-color: transparent;
+    margin-left: 75%;
+    margin-top: 5%;
 }
+
+
 
 .retangulo2 {
     height: 98px;
     background-color: #E07D00;
 }
-
