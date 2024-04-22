@@ -1,5 +1,5 @@
 @font-face {
-    font-family:"Titillium Web";
+    font-family: "Titillium Web";
     src: url(fonts/Titillium_Web\ \(1\)/);
 }
 
@@ -15,12 +15,13 @@ html {
 }
 
 .container-grid {
-    width: 80vw;
+    width: 1230px;
     max-width: 1400px;
     margin: auto;
 }
 
 .header {
+    width: 1440px;
     height: 122px;
     background-color: #B66400;
 }
@@ -31,8 +32,9 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
+
 .menu {
     width: 700px;
     display: flex;
@@ -43,11 +45,64 @@ html {
 .menu a {
     font-family: "Titillium Web";
     color: white;
-    font-size: 36px;
+    font-size: 30px;
     text-decoration: underline transparent;
-    font-weight: ;
+    font-weight: 600;
+
 
 }
+
 .menu a:hover {
     color: #0093E0;
 }
+
+.sobre {
+    background-color: #E07D00;
+    height: 808px;
+}
+
+.sobre p {
+    font-family: "Mulish";
+    color: white;
+    font-size: 36px;
+}
+
+.gamificacao h1,
+h3 {
+    font-size: 36px;
+}
+
+.gamificacao h2,
+h4 {
+    font-size: 25px;
+
+}
+
+.retangulo1 {
+    height: 98px;
+    background-color: #E07D00;
+}
+
+.sedivirta{
+    justify-content: space-around;
+}
+
+.sedivirta p {
+    font-size: 48px;
+    text-align: center;
+}
+
+.sedivirta button {
+    width: 273px;
+    height: 64px;
+    font-size: 32px;
+    background-color: #E07D00;
+    
+
+}
+
+.retangulo2 {
+    height: 98px;
+    background-color: #E07D00;
+}
+
