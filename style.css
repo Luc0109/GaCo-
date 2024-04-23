@@ -1,5 +1,5 @@
 @font-face {
-    font-family:"Titillium Web";
+    font-family: "Titillium Web";
     src: url(fonts/Titillium_Web\ \(1\)/);
 }
 
@@ -15,12 +15,13 @@ html {
 }
 
 .container-grid {
-    width: 80vw;
+    width: 1230px;
     max-width: 1400px;
     margin: auto;
 }
 
 .header {
+    width: 100%;
     height: 122px;
     background-color: #B66400;
 }
@@ -31,8 +32,9 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
+
 .menu {
     width: 700px;
     display: flex;
@@ -43,11 +45,209 @@ html {
 .menu a {
     font-family: "Titillium Web";
     color: white;
-    font-size: 36px;
+    font-size: 30px;
     text-decoration: underline transparent;
-    font-weight: ;
+    font-weight: 600;
+
 
 }
+
 .menu a:hover {
     color: #0093E0;
+    transition: .3s;
 }
+
+.sobre {
+    background-color: #E07D00;
+    height: 808px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre p {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+
+.sobre img {
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.sobre p {
+    font-family: "Mulish";
+    color: white;
+    font-size: 36px;
+}
+
+.empresas h1 {
+    font-family: "Titillium Web";
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 60px;
+
+}
+
+.empresas img {
+    margin-bottom: 60px;
+}
+
+.gamificacao h2 {
+    font-size: 36px;
+    font-family: "Titillium Web";
+    text-align: center;
+}
+
+.gamificacao p {
+    font-size: 25px;
+    font-family: "Mulish";
+    text-align: center;
+    padding: 100px 20%;
+
+}
+
+h3 {
+    font-size: 36px;
+    font-family: "Titillium Web";
+    text-align: center;
+}
+
+
+
+.sucessos {
+    background-color: #E07D0027;
+    margin-bottom: 478px;
+    margin-top: 20%;
+}
+
+.sucessos h1 {
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+ 
+.imagemempresa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.escola {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Hospital {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h4 {
+    font-size: 38px;
+    font-family: "Titillium Web";
+    text-align: center;
+
+}
+
+.sucessos img {
+    justify-content: center;
+    display: flex;
+    flex-direction: c;
+    
+}
+
+
+
+.sucessos button {
+    background-color: #E07D00;
+    width: 537px;
+    height: 95.57px;
+    border-radius: 150px;
+    text-align: center;
+    font-size: 32px;
+    border-style: none;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 462px;
+    margin-right: 462px;
+}
+
+.sucessos img {
+    padding: 10%;
+}
+
+.retangulo1 {
+    height: 90px;
+    background-color: #E07D00;
+}
+
+.sedivirta {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+
+.sedivirta button {
+    width: 273px;
+    height: 64px;
+    font-size: 32px;
+    background-color: #E07D00;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 815px;
+    margin-top: 70px;
+
+}
+
+.sedivirta p {
+    font-size: 37px;
+    font-family: "Mulish";
+    text-align: center;
+}
+
+.retangulo2 {
+    height: 90px;
+    background-color: #E07D00;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 253;
+    background-color: #E07D00;
+}
+
+footer img {
+    height: 99px;
+    display: flex;
+    justify-content: center; 
+}
+
+.imgfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 800px;
+    
+}
+
+footer p {
+    font-family: "Titillium Web";
+    font-size: 20px;
+    text-align: ;
+    
+}
+
+
+
