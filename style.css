@@ -35,6 +35,14 @@ html {
 
 }
 
+.header img {
+    margin-bottom: 15px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
 .menu {
     width: 700px;
     display: flex;
@@ -73,17 +81,25 @@ html {
 
 
 .sobre img {
-    height: 250px;
+    height: 150px;
     margin-bottom: 100px;
+    margin-left: 100px;
+
+
+
 }
 
 .sobre p {
     font-family: "Mulish";
     color: white;
     font-size: 36px;
+    height: 570px;
+    width: 798px;
+    margin-right: 100px;
+    margin-bottom: 50px;
 }
 
-.empresas h1 {
+.carrossel h1 {
     font-family: "Titillium Web";
     font-size: 50px;
     text-align: center;
@@ -92,9 +108,8 @@ html {
 
 }
 
-.empresas img {
-    margin-bottom: 60px;
-}
+.carrossel {}
+
 
 .gamificacao h2 {
     font-size: 36px;
@@ -119,70 +134,21 @@ h3 {
 
 
 .sucessos {
-    background-color: #E07D0027;
+    background-color: #E07D0030;
     margin-bottom: 478px;
     margin-top: 20%;
 }
 
-.sucessos h1 {
-    text-align: center;
+h4 {
     font-family: "Titillium Web";
     font-size: 40px;
-    padding-top: 15%;
-    padding-bottom: 5%;
-}
- 
-.imagemempresa {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.escola {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.Hospital {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-h4 {
-    font-size: 38px;
-    font-family: "Titillium Web";
     text-align: center;
+    padding-top: 10%;
 
 }
 
-.sucessos img {
-    justify-content: center;
-    display: flex;
-    flex-direction: c;
-    
-}
 
 
-
-.sucessos button {
-    background-color: #E07D00;
-    width: 537px;
-    height: 95.57px;
-    border-radius: 150px;
-    text-align: center;
-    font-size: 32px;
-    border-style: none;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    margin-left: 462px;
-    margin-right: 462px;
-}
-
-.sucessos img {
-    padding: 10%;
-}
 
 .retangulo1 {
     height: 90px;
@@ -207,8 +173,13 @@ h4 {
     border-style: none;
     margin-left: 815px;
     margin-top: 70px;
-
+    cursor: pointer;
 }
+
+.sedivirtabutton :hover {
+  
+}
+
 
 .sedivirta p {
     font-size: 37px;
@@ -221,33 +192,61 @@ h4 {
     background-color: #E07D00;
 }
 
+h5 {
+    font-size: 40px;
+    font-family: "Titillium Web";
+    text-align: center;
+    margin-top: 145px;
+    margin-bottom: 145px;
+
+}
+
+.contato img {
+    margin-left: 100px;
+    margin-bottom: 300px;
+}
+
+.faixa {
+    height: 10px;
+    background-color: black;
+    width: 100%;
+}
+
 footer {
     display: flex;
     width: 100%;
-    height: 253;
+    height: 250px;
     background-color: #E07D00;
 }
 
 footer img {
-    height: 99px;
-    display: flex;
-    justify-content: center; 
+    height: 100px;
+    display: block;
+    justify-content: center;
+    margin-left: 100px;
+    margin: 65px;
 }
 
 .imgfooter {
+
+
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    align-items: center;
     margin-left: 800px;
-    
+    margin-top: 150px;
+
 }
 
-footer p {
-    font-family: "Titillium Web";
-    font-size: 20px;
-    text-align: ;
-    
+.insta img {
+    margin: 0px;
 }
 
+.x img {
+    margin: 0px;
 
+}
 
+.linkedin img {
+
+    margin: 0px;
+}
