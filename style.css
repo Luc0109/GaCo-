@@ -108,7 +108,30 @@ html {
 
 }
 
-.carrossel {}
+.carrosselimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.carrosselimg {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 
 .gamificacao h2 {
@@ -137,6 +160,16 @@ h3 {
     background-color: #E07D0030;
     margin-bottom: 478px;
     margin-top: 20%;
+    height: 900px;
+}
+
+
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
 h4 {
@@ -144,15 +177,41 @@ h4 {
     font-size: 40px;
     text-align: center;
     padding-top: 10%;
+    margin-bottom: 100px;
+    
+}
+
+.empresa p {
+    font-family: "Nunito";
+    font-size: 15px;
+}
+
+
+h5 {
+    font-size: 27px;
+    font-family: "Nunito";
+    text-align: center;
+}
+
+
+
+.escola p {
+    font-family: "Nunito";
+    font-size: 32px;
 
 }
 
+.hospital p {
+    font-family: "Nunito";
+    font-size: 32px;
+}
 
 
 
 .retangulo1 {
     height: 90px;
     background-color: #E07D00;
+
 }
 
 .sedivirta {
@@ -176,10 +235,14 @@ h4 {
     cursor: pointer;
 }
 
-.sedivirtabutton :hover {
-  
-}
+.sedivirta button:hover {
+    
+    color: #ffff;
+    transition: .2s;
+    border-radius: 100px;
+    transition: 1s;
 
+}
 
 .sedivirta p {
     font-size: 37px;
@@ -192,14 +255,6 @@ h4 {
     background-color: #E07D00;
 }
 
-h5 {
-    font-size: 40px;
-    font-family: "Titillium Web";
-    text-align: center;
-    margin-top: 145px;
-    margin-bottom: 145px;
-
-}
 
 .contato img {
     margin-left: 100px;
@@ -237,6 +292,11 @@ footer img {
 
 }
 
+.linkedin:hover {
+    cursor: pointer;
+   
+}
+
 .insta img {
     margin: 0px;
 }
@@ -247,6 +307,8 @@ footer img {
 }
 
 .linkedin img {
-
     margin: 0px;
 }
+
+
+
