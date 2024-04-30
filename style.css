@@ -316,59 +316,82 @@ h4 {
 
 .forms {
     display: flex;
-    justify-content: center;
-    background-color: #E07D0090;
+    background: linear-gradient(90deg, rgba(224, 125, 0, 0.37) 0%, rgba(39, 43, 70, 0.9) 88%, rgba(13, 31, 80, 1) 100%);
     border-radius: 100px;
     height: 650px;
     width: 600px;
     font-family: "Nunito";
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 390px;
+
 }
 
 .forms img {
     height: 170px;
     width: 190px;
-    margin-bottom: 375px;
-    
+    margin-bottom: 150px;
+
 }
 
 
 .forms {
-    
     flex-direction: column;
-    
-    
     align-items: center;
     justify-content: center;
 }
 
-.nome input {
-    height: 35px;
-    width: 350px;
-    background-color: #D9D9D9;
-    border-color: #1E3E93;
-    
-    margin-bottom: px;
-}
 
 .email input {
     height: 30px;
-    width: 230px;
+    width: 365px;
     background-color: #D9D9D9;
     border-color: #1E3E93;
+    margin-bottom: 20px;
+    border-style: solid;
+    outline: none;
+    text-indent: 7px;
+    
+
 }
 
 .Contato input {
-    height: 30px;
-    width: 230px;
+    height: 150px;
+    width: 365px;
     background-color: #D9D9D9;
     border-color: #1E3E93;
+    margin-bottom: 20px;
+    border-style: solid;
+    outline: none;
+    text-indent: 7px;
+    
+
+}
+
+.forms button {
+    font-size: 17px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #0D1F50;
+    
+}
+
+.forms button:hover {
+    cursor: pointer;
+    box-shadow: 6px 5px #0D1F5020;
+    transition: .7s;
 }
 
 
+
+
+
 .faixa {
-    height: 10px;
+    height: 8px;
     background-color: black;
     width: 100%;
 }
@@ -387,9 +410,7 @@ footer {
     margin-left: 200px;
 }
 
-.nome {
-    font-family: "Nunito";
-}
+
 
 
 footer img {
