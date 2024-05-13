@@ -311,27 +311,31 @@ h4 {
 
 
 .forms img {
-    height: 170px;
-    width: 190px;
     margin-top: 50px;
-    margin-bottom: 140px;
+    margin-bottom: 110px;
     margin-right: 192px;
+    height: 170px;
+    margin-left: 160px;
 
 }
 
 
 .forms {
+    position: relative;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    display: flex;
-    background: linear-gradient(90deg, rgba(224, 125, 0, 0.37) 0%, rgba(39, 43, 70, 0.9) 88%, rgba(13, 31, 80, 1) 100%);
+    justify-content: center;
+    align-self: center;
+    margin-left: 500px;
+    background: #E07D00;
     border-radius: 100px;
     height: 650px;
     width: 600px;
     font-family: "Nunito";
     margin-top: 80px;
     margin-bottom: 80px;
-    margin-left: 490px;
+   
 
 
 }
@@ -340,7 +344,7 @@ h4 {
 .email input {
     height: 30px;
     width: 365px;
-    background-color: #D9D9D9;
+    background-color: #ffff;
     border-color: #1E3E93;
     margin-bottom: 20px;
     border-style: solid;
@@ -353,7 +357,7 @@ h4 {
 .Contato input {
     height: 150px;
     width: 365px;
-    background-color: #D9D9D9;
+    background-color: #fff;
     border-color: #1E3E93;
     margin-bottom: 20px;
     border-style: solid;
@@ -380,10 +384,6 @@ h4 {
     transition: .7s;
 }
 
-
-
-
-
 .faixa {
     height: 8px;
     background-color: black;
@@ -398,11 +398,6 @@ footer {
     background-color: #E07D00;
 }
 
-.forms img {
-    height: 120px;
-
-    margin-left: 200px;
-}
 
 
 
