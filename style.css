@@ -28,12 +28,14 @@ html {
 }
 
 
-
-
-.header button {
-
+header button {
     display: none;
+}
 
+
+  
+#botaoX, #botaoBarras {
+    display: none;
 }
 
 .logogaco1300px {
@@ -53,7 +55,7 @@ html {
 
 .header img {
     margin-bottom: 15px;
-    height: 100px;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -286,15 +288,7 @@ h4 {
     margin-top: 70px;
     cursor: pointer;
 }
-
-.sedivirta button:hover {
-
-    color: #ffff;
-    transition: .2s;
-    border-radius: 100px;
-    transition: 1s;
-
-}
+ 
 
 .sedivirta p {
     font-size: 37px;
@@ -310,33 +304,23 @@ h4 {
 
 
 
-.forms img {
-    margin-top: 50px;
-    margin-bottom: 110px;
-    margin-right: 192px;
+#forms img {
     height: 170px;
-    margin-left: 160px;
-
 }
 
 
-.forms {
-    position: relative;
+#forms {
+    height: 700px;
+    width: 500px;
+    background-color: #E07D00;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    align-self: center;
-    margin-left: 500px;
-    background: #E07D00;
-    border-radius: 100px;
-    height: 650px;
-    width: 600px;
-    font-family: "Nunito";
-    margin-top: 80px;
-    margin-bottom: 80px;
-   
-
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 32%;
+    border-radius: 35px;
 
 }
 
@@ -346,7 +330,7 @@ h4 {
     width: 365px;
     background-color: #ffff;
     border-color: #1E3E93;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-style: solid;
     outline: none;
     text-indent: 7px;
@@ -359,10 +343,11 @@ h4 {
     width: 365px;
     background-color: #fff;
     border-color: #1E3E93;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     border-style: solid;
     outline: none;
     text-indent: 7px;
+    
     
 
 }
@@ -375,12 +360,13 @@ h4 {
     border-radius: 50px;
     color: white;
     background-color: #0D1F50;
+    margin-bottom: 75px;
+
     
 }
 
 .forms button:hover {
     cursor: pointer;
-    box-shadow: 6px 5px #0D1F5020;
     transition: .7s;
 }
 
@@ -444,6 +430,12 @@ footer img {
     .header {
         background-color: #E07D00;
         width: 100%;
+
+    }
+
+    #botaox, #botaoBarras {
+        display: flex;
+        background-color: #0093E0;
 
     }
 
