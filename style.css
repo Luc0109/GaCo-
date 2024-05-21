@@ -28,11 +28,6 @@ html {
 }
 
 
-header button {
-    display: none;
-}
-
-
   
 #botaoX, #botaoBarras {
     display: none;
@@ -325,6 +320,7 @@ h4 {
 }
 
 
+
 .email input {
     height: 30px;
     width: 365px;
@@ -338,7 +334,7 @@ h4 {
 
 }
 
-.Contato input {
+.contato input {
     height: 150px;
     width: 365px;
     background-color: #fff;
@@ -425,28 +421,96 @@ footer img {
 
 }
 
+
+#icone-barras {
+    display: none;
+}
+ 
+ 
+
+@media screen and (max-width: 1600px) {
+    .header button {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1300px) {
 
     .header {
         background-color: #E07D00;
         width: 100%;
 
+
     }
 
-    #botaox, #botaoBarras {
-        display: flex;
-        background-color: #0093E0;
 
+    .header a {
+        color: #E07D00;
+    }
+
+    .header button {
+        display: flex;
+    }
+
+
+   #icone-barras {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        display: none;
+         
+         
+    }
+
+    #xlogo {
+        width: 50px;
+        height: 50px;
+        display: flex;
+         
+    }
+
+
+
+    .header button {
+        border: none;
+        background: none;
+        margin: 50px;
+
+    }
+
+    .header svg {
+        fill: white;
+    }
+  
+
+    .menu a:hover {
+        color: #ffffff;
+        transition: .3s;
+    }
+
+    nav.menu {
+         flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+        background-color: black;
+        height: 500px;
+        width: 350px;
+        padding: 0px;
+        position: absolute;
+        top: 165px;
+        right: 0px;
+        z-index: 1;
     }
 
 
 
     .logogaco1300px {
         justify-content: center;
-        width: 50px;
+         height: 80px;
         display: unset;
         background: none;
         border: none;
+
 
     }
 
@@ -473,7 +537,7 @@ footer img {
         font-size: 35px;
     }
 
-    .sucessos button {}
+    
 
     .carrosselimg img {
         width: 150px;
