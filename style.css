@@ -320,7 +320,6 @@ h4 {
 }
 
 
-
 .email input {
     height: 30px;
     width: 365px;
@@ -365,6 +364,9 @@ h4 {
     cursor: pointer;
     transition: .7s;
 }
+
+
+
 
 .faixa {
     height: 8px;
